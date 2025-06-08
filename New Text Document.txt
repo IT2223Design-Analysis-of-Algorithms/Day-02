@@ -1,0 +1,45 @@
+// For Loop
+for variable=1:10
+    "Hi"
+end
+
+for variable=1:2:15
+    variable
+end
+
+// write a for loop to calculate the sum of the numbers from 1 to 10
+sum=0;
+for i=1:10
+    sum=sum+i;
+end
+
+disp("Summation "+sum)
+
+// write a code to find the factorial
+fact=1;
+for i=1:5
+    fact=fact*i;
+end
+disp("Factorial of 5 is "+fact)
+
+// Display methods
+x=10;
+disp(['The number1 is: ',num2str(x)])
+disp("The number2 is: "+x)
+fprintf('The number3 is: %d',x)
+y=sprintf('The number4 is: %d',x)
+disp(y)
+
+// User Input
+m=input("Enter the Number: ");
+disp(['you entered ',num2str(m)]);
+
+name=input('Enter your name: ','s');
+disp(['you entered ',name]);
+
+// While loop
+i=1;
+while i<=10
+    disp(i)
+    i=i+1;
+end
